@@ -39,4 +39,4 @@ async def on_message(message):
     if "mid" in message.content:
         await message.channel.send('shutup ur mid')
 
-client.run('OTAxODkxMzc3MDAzMTM1MDY2.YXWdzA.xvwCTTyOW7rN8L2LDQfonYcTy6E')
+client.run(token)
