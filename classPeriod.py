@@ -1,6 +1,8 @@
 import time
 from datetime import datetime
 
+from discord.utils import get
+
 
 def get_minute():
     seconds = time.time()
@@ -23,8 +25,8 @@ def get_time():
     global hour
     minute = get_minute()
     hour = get_hour()
-    print('Hour: ' + str(hour))
-    print('Minute: ' + str(minute))
+    # print('Hour: ' + str(hour))
+    # print('Minute: ' + str(minute))
 
 def get_day():
     global day
